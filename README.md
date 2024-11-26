@@ -17,4 +17,4 @@ You can install the required Python packages by using the `requirements.txt` fil
 ### 1. Clone the Repository:
 If you haven't already, clone the repository to your local machine using:
 ```bash
-git clone https://github.com/yourusername/craft-store-ai-chatbot.git
+git clone https://github.com/laNelson197/CraftStoreAI.git
