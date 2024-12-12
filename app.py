@@ -1,8 +1,8 @@
-from flask import Flask, render_template, request, jsonify
-import mysql.connector
+from flask import Flask, render_template, request, jsonify # type: ignore
+import mysql.connector # type: ignore
 from config import Config
 import os
-from groq import Groq
+from groq import Groq # type: ignore
 
 app = Flask(__name__)
 
@@ -71,7 +71,7 @@ def home():
 # Route to handle AI query (POST request)
 @app.route('/ai-query', methods=['POST'])
 def ai_query():
-    user_message = request.form.get('user_query')  # Get user query from the form input
+    user_message = request.form.get('user_query')
     if user_message:
         # Get the AI response or product response based on the query
         ai_response = get_chat_response(user_message)

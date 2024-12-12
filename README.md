@@ -13,7 +13,6 @@ config.py:
 product.py:
     Defines get_products() to query the MySQL database for products matching user input.
 
-<<<<<<< HEAD
 style.css:
     CSS file for frontend styling, including layout, colors, and button styles.
 
@@ -62,9 +61,3 @@ While I initially aimed to create a more basic, "rag"-like application, I ended 
 
 **Future Improvements:**  
 In the future, the application could be enhanced to include the logic necessary to retrieve individual product details. This project has been a valuable learning experience, and I would approach it differently if I were to build it again.
-=======
-### 1. Clone the Repository:
-If you haven't already, clone the repository to your local machine using:
-```bash
-git clone https://github.com/laNelson197/CraftStoreAI.git
->>>>>>> df93cb9e29762adbaf9d0ee021a7293eb4378d4f
